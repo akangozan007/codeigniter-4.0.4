@@ -33,7 +33,8 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 // kustom
-$routes->get('/intro', 'Home::index');
+$routes->get('/debug', 'Koneksi::index');
+
 
 /**
  * --------------------------------------------------------------------
